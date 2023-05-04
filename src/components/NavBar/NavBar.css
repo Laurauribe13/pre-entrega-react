@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+    margin: 2rem;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.imagenLogo {
+    width: 10rem;
+}
