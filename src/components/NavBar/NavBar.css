@@ -5,17 +5,40 @@ header {
     border-bottom: 1px solid black;
 }
 
+.categorias {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 ul {
     margin: 0px;
     padding: 0px;
 }
 
 li {
+    list-style: none;
     display: inline-block;
     margin: 2rem;
     cursor: pointer;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 25px;
+}
+
+.navLinkCat {
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navLinkCat:hover {
+    background-color: #eed6f0;
+    color: black;
+    padding: 8px;
+    border: solid 1px white;
+    border-radius: 16px;
 }
 
 .imagenLogo {
