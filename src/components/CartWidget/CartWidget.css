@@ -1,3 +1,9 @@
 .iconoCarrito {
     width: 3rem;
 }
+
+.indicadorItems {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
